@@ -1,0 +1,14 @@
+/* src/components/Dino.css */
+.dino {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    transition: bottom 0.3s;
+}
+
+.dino.jump {
+    bottom: 80px;
+}
